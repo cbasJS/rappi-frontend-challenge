@@ -1,0 +1,105 @@
+:root {
+  /*
+  * colors
+  */
+  --B152: #e10098;
+  --B180: #b3b3b3;
+  --B102: #666666;
+  --B63: #3b3b3e;
+  --B0: #000;
+  --B194: #e799c2;
+  --B243: #eff1ea;
+  --G0B0: #ff0000;
+  --B255: #fff;
+  --G0B152: #e10098;
+  --B133: #c81685;
+  --GB243: #f2f2f2;
+  --B216: #d8d8d8;
+  --B139: #81898b;
+  --B122: #73787a;
+  --B48: #2f2f2f;
+
+  /* #E10098 */
+
+  /*
+  * breakpoints
+  */
+  --min: 320px;
+  --xxxxsmall: 375px;
+  --xxxsmall: 410px;
+  --xxsmall: 480px;
+  --xsmall: 576px;
+  --small: 640px;
+  --medium: 768px;
+  --large: 992px;
+  --xlarge: 1024px;
+  --xxlarge: 1200px;
+  --xxxlarge: 1440px;
+  --xxxxlarge: 1680px;
+  --max: 1920px;
+
+  /*
+  * breakpoints - 1
+  */
+  --min-minus-1: 319;
+  --xxxxsmall-minus-1: 374;
+  --xxxsmall-minus-1: 409;
+  --xxsmall-minus-1: 479;
+  --xsmall-minus-1: 575;
+  --small-minus-1: 639;
+  --medium-minus-1: 767;
+  --large-minus-1: 991;
+  --xlarge-minus-1: 1023;
+  --xxlarge-minus-1: 1199;
+  --xxxlarge-minus-1: 1439;
+  --xxxxlarge-minus-1: 1679;
+  --max-minus-1: 1919;
+
+  /*
+  * font weight value
+  */
+  --font-weight-300: 300;
+  --font-weight-normal: 400;
+  --font-weight-600: 600;
+  --font-weight-semibold: 700;
+  --font-weight-bold: 900;
+
+  /*
+  * font line size
+  */
+  --font-line-height-small: 1.3;
+  --font-line-height-normal: 1.5;
+
+  /*
+  * size spacer
+  */
+  --size-spacer-xsmall: 0.5rem;
+  --size-spacer-small: 1rem;
+  --size-spacer-medium: 1.5rem;
+  --size-spacer-large: 2rem;
+  --size-spacer-xlarge: 2.5rem;
+
+  /*
+  * header and footer height
+  */
+  --header-height-size: 4.5rem;
+  --footer-height-size: 3rem;
+  --footer-height-size-mobile: 9.9375rem;
+}
+
+/*
+* media queries
+*/
+@custom-media --min screen and (min-width: 320px);
+@custom-media --xxxxsmall screen and (min-width: 375px);
+@custom-media --xxxsmall screen and (min-width: 410px);
+@custom-media --xxsmall screen and (min-width: 480px);
+@custom-media --xsmall screen and (min-width: 576px);
+@custom-media --small screen and (min-width: 640px);
+@custom-media --medium screen and (min-width: 768px);
+@custom-media --large screen and (min-width: 992px);
+@custom-media --xlarge screen and (min-width: 1024px);
+@custom-media --xxlarge screen and (min-width: 1200px);
+@custom-media --xxxlarge screen and (min-width: 1440px);
+@custom-media --xxxxlarge screen and (min-width: 1680px);
+@custom-media --max screen and (min-width: 1920px);

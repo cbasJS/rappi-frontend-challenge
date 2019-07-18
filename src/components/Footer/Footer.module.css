@@ -1,0 +1,17 @@
+@import "../../styles/variables.css";
+
+.footer {
+  background-color: var(--B180);
+  width: 100%;
+}
+
+.wrapper {
+  margin: 0;
+  max-width: 960px;
+  padding: 1.45rem var(--size-spacer-medium);
+}
+
+.h5 {
+  color: var(--B255);
+  margin: 0;
+}

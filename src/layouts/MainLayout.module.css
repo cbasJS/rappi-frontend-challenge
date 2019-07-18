@@ -1,0 +1,27 @@
+@import "../styles/extend-rules.css";
+@import "../styles/variables.css";
+
+html {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+}
+
+.mainLayout {
+  background-color: var(--B255);
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+}
+
+.wrapper {
+  padding: var(--size-spacer-medium);
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: var(--size-spacer-large);
+  }
+}

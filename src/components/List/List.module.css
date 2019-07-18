@@ -1,0 +1,12 @@
+.list {
+  align-items: center;
+  column-gap: 0.5rem;
+  display: grid;
+  grid-auto-rows: auto 1fr;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
